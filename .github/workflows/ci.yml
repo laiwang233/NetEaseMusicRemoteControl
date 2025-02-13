@@ -21,6 +21,14 @@ jobs:
               with:
                   dotnet-version: '9.0'
 
+            - name: Cache NuGet packages
+              uses: actions/cache@v2
+              with:
+                path: ~/.nuget/packages
+                key: ${{ runner.os }}-nuget-${{ hashFiles('**/*.csproj') }}
+                restore-keys: |
+                  ${{ runner.os }}-nuget-
+
             - name: 还原依赖项
               run: dotnet restore
 
