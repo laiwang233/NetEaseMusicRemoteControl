@@ -1,1 +1,1 @@
-# NetEaseMusicRemoteControl
+NetEaseMusic遥控器，通过调用虚拟键盘操控全局快捷键实现上一曲、下一曲、播放/暂停等功能
