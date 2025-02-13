@@ -18,8 +18,8 @@
   <ItemGroup>
     <ProjectReference Include="..\NetEaseMusicRemoteControl.Application\NetEaseMusicRemoteControl.Application.csproj" />
     <ProjectReference Include="..\NetEaseMusicRemoteControl.Domain\NetEaseMusicRemoteControl.Domain.csproj" />
+    <ProjectReference Include="..\NetEaseMusicRemoteControl.Host\NetEaseMusicRemoteControl.Host.csproj" />
     <ProjectReference Include="..\NetEaseMusicRemoteControl.Infrastructure\NetEaseMusicRemoteControl.Infrastructure.csproj" />
-    <ProjectReference Include="..\NetEaseMusicRemoteControl\NetEaseMusicRemoteControl.Host.csproj" />
   </ItemGroup>
 
   <ItemGroup>
