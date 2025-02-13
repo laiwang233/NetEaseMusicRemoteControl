@@ -1,4 +1,7 @@
-﻿using NetEaseMusicRemoteControl.Infrastructure.Services.MusicInfo.Implement;
+﻿using Moq;
+using NetEaseMusicRemoteControl.Domain.MusicPlayer.Entities;
+using NetEaseMusicRemoteControl.Infrastructure.Services.MusicInfo.Implement;
+using NetEaseMusicRemoteControl.Infrastructure.Services.MusicInfo.Interface;
 
 namespace NetEaseMusicRemoteControl.Test
 {
@@ -7,9 +10,12 @@ namespace NetEaseMusicRemoteControl.Test
         [Fact]
         public void GetMusicInfo_Successfully()
         {
-            var musicInfo = new MusicInfo();
+            var musicInfo = new Mock<IMusicInfo>();
+            musicInfo
+                .Setup(s => s.GetMusicInfo())
+                .Returns(new MusicInformation("TestMusicName", ["TestSinger"], "TestAlbum", "TestAlbumCover.png"));
 
-            var res = musicInfo.GetMusicInfo();
+            var res = musicInfo.Object.GetMusicInfo();
 
             Assert.NotNull(res);
         }
