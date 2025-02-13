@@ -19,7 +19,7 @@ jobs:
             - name: 设置.net
               uses: actions/setup-dotnet@v3
               with:
-                  dotnet-version: '9:0'
+                  dotnet-version: '9.0'
 
             - name: 还原依赖项
               run: dotnet restore
