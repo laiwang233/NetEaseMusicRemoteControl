@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NetEaseMusicRemoteControl.Domain\NetEaseMusicRemoteControl.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Services\KeyboardSimulator\Implement\" />
+    <Folder Include="Services\MusicInfo\Implement\" />
+  </ItemGroup>
+
+</Project>

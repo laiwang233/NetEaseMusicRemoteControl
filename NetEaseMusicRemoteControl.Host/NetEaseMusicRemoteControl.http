@@ -1,0 +1,6 @@
+@NetEaseMusicRemoteControl_HostAddress = http://localhost:5199
+
+GET {{NetEaseMusicRemoteControl_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

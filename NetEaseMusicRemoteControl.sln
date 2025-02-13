@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetEaseMusicRemoteControl.Infrastructure", "NetEaseMusicRemoteControl.Infrastructure\NetEaseMusicRemoteControl.Infrastructure.csproj", "{B80351AC-8DFD-4924-86D6-A7C77023CE73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetEaseMusicRemoteControl.Domain", "NetEaseMusicRemoteControl.Domain\NetEaseMusicRemoteControl.Domain.csproj", "{D4CD88EA-DB1E-47C2-BDCF-0AA2F4507B3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetEaseMusicRemoteControl.Application", "NetEaseMusicRemoteControl.Application\NetEaseMusicRemoteControl.Application.csproj", "{5715AACA-A6C8-4DB5-9ED7-B69B13633183}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetEaseMusicRemoteControl.Test", "NetEaseMusicRemoteControl.Test\NetEaseMusicRemoteControl.Test.csproj", "{953CE922-0D24-4971-AD6B-5B0714F60215}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetEaseMusicRemoteControl.Host", "NetEaseMusicRemoteControl.Host\NetEaseMusicRemoteControl.Host.csproj", "{25F3B843-B671-4864-B1EB-5ABFE3FB9BD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetEaseMusicRemoteControl.UI", "NetEaseMusicRemoteControl.UI\NetEaseMusicRemoteControl.UI\NetEaseMusicRemoteControl.UI.csproj", "{C7C54DF1-34ED-4593-B2D2-BA437DC79C3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetEaseMusicRemoteControl.UI.Client", "NetEaseMusicRemoteControl.UI\NetEaseMusicRemoteControl.UI.Client\NetEaseMusicRemoteControl.UI.Client.csproj", "{360BDC7E-4BC8-4E40-9FBC-5526448A8FE2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B80351AC-8DFD-4924-86D6-A7C77023CE73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B80351AC-8DFD-4924-86D6-A7C77023CE73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B80351AC-8DFD-4924-86D6-A7C77023CE73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B80351AC-8DFD-4924-86D6-A7C77023CE73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4CD88EA-DB1E-47C2-BDCF-0AA2F4507B3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4CD88EA-DB1E-47C2-BDCF-0AA2F4507B3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4CD88EA-DB1E-47C2-BDCF-0AA2F4507B3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4CD88EA-DB1E-47C2-BDCF-0AA2F4507B3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5715AACA-A6C8-4DB5-9ED7-B69B13633183}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5715AACA-A6C8-4DB5-9ED7-B69B13633183}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5715AACA-A6C8-4DB5-9ED7-B69B13633183}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5715AACA-A6C8-4DB5-9ED7-B69B13633183}.Release|Any CPU.Build.0 = Release|Any CPU
+		{953CE922-0D24-4971-AD6B-5B0714F60215}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{953CE922-0D24-4971-AD6B-5B0714F60215}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{953CE922-0D24-4971-AD6B-5B0714F60215}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{953CE922-0D24-4971-AD6B-5B0714F60215}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25F3B843-B671-4864-B1EB-5ABFE3FB9BD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25F3B843-B671-4864-B1EB-5ABFE3FB9BD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25F3B843-B671-4864-B1EB-5ABFE3FB9BD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25F3B843-B671-4864-B1EB-5ABFE3FB9BD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7C54DF1-34ED-4593-B2D2-BA437DC79C3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7C54DF1-34ED-4593-B2D2-BA437DC79C3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7C54DF1-34ED-4593-B2D2-BA437DC79C3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7C54DF1-34ED-4593-B2D2-BA437DC79C3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{360BDC7E-4BC8-4E40-9FBC-5526448A8FE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{360BDC7E-4BC8-4E40-9FBC-5526448A8FE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{360BDC7E-4BC8-4E40-9FBC-5526448A8FE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{360BDC7E-4BC8-4E40-9FBC-5526448A8FE2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
