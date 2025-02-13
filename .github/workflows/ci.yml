@@ -1,0 +1,31 @@
+name: CI Pipeline
+
+on:
+    push:
+        branches:
+            - master
+    pull_request:
+        branches:
+            - master
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: 检查代码
+              uses: actions/checkout@v2
+
+            - name: 设置.net
+              uses: actions/setup-dotnet@v3
+              with:
+                  dotnet-version: '9:0'
+
+            - name: 还原依赖项
+              run: dotnet restore
+
+            - name: 编译程序
+              run: dotnet build --configuration Release
+
+            - name: 执行单元测试程序
+              run: dotnet test --configuration Release --no-build
