@@ -1,6 +1,5 @@
 ﻿using Moq;
 using NetEaseMusicRemoteControl.Domain.MusicPlayer.Entities;
-using NetEaseMusicRemoteControl.Infrastructure.Services.MusicInfo.Implement;
 using NetEaseMusicRemoteControl.Infrastructure.Services.MusicInfo.Interface;
 
 namespace NetEaseMusicRemoteControl.Test
